@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#logo {
+  border-radius: 50%;
+  position: absolute;
+  left: 30px;
+  width: 50px;
+}
+
+header {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(gray);
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 60px;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+nav ul li a {
+  color: rgb(250, 247, 247);
+  text-decoration: none;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #555;
+  padding: 10px;
+  border-radius: 30px;
+}
+a:hover{
+  background-color: #d62828;
+  
+}
+
+.hero-section {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(140deg, #601004ed 50%,#c91313 ,white) ;
+}
+span{
+  color: #f0f0f0;
+}
+.hero-section h1 {
+  color: rgb(255, 38, 0);
+  font-size: 60px;
+  text-align: center;
+}
+section {
+  font-family: Arial, sans-serif;
+  
+}
+
+.donation-process {
+  text-align: center;
+  padding: 40px;
+}
+
+.donation-process h2 {
+  color: #d62828;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  color: #170707;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.process-steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.step {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.step img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.step h3 {
+  color: #d62828;
+  margin-top: 15px;
+}
+
+.step p {
+  color: #333;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+ 
